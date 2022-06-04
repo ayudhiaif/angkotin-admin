@@ -1,0 +1,35 @@
+.modal {
+  /* background: #ffffff;
+    padding: 10px 0 20px 0;
+    border-radius: 10px; */
+  /* width: 450px; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-form h2 {
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.add-form form input {
+  width: 55%;
+  margin-bottom: 20px;
+  padding: 12px 12px;
+  box-sizing: border-box;
+  border: 1px solid #d0d5d8;
+  border-radius: 3px;
+}
+
+.add-form button {
+  padding: 12px 0;
+  width: 55%;
+  background: #2545d4;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
