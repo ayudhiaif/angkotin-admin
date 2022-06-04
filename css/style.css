@@ -60,7 +60,7 @@
 
 .sidebar .header .list-item .icon {
   margin-right: 12px;
-  width: 32px;
+  width: 30px;
   /* display: block; */
 }
 
@@ -113,7 +113,7 @@
 
 /* Toogle Menu */
 
-#menu-button {
+/* #menu-button {
   width: 36px;
   position: absolute;
   overflow: hidden;
@@ -226,4 +226,36 @@
   100% {
     transform: rotateZ(0);
   }
+} */
+
+.container .section {
+  width: calc(100% - 200px);
+  /* margin-left: 225px; */
+  transition: all 0.5s ease;
+}
+
+.container .section .top_navbar {
+  background-color: #7a94f1;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.container .section .top_navbar .hamburger a {
+  font-size: 28px;
+  color: #000000;
+}
+
+.container .section .top_navbar .hamburger a:hover {
+  color: #ffffff;
+}
+
+.body.active .container .sidebar {
+  left: -225;
+}
+
+.body.active .container .section {
+  margin-left: 0;
+  width: 100%;
 }
